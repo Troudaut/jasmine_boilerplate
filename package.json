@@ -26,6 +26,27 @@
 				"command": "jasmine-boilerplate.generateBoilerplate",
 				"group": "myGroup@1"
 		  	}]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Jasmine Boilerplate configuration",
+			"properties": {
+				"jasmine-boilerplate.testFileExtension": {
+					"type": "string",
+					"default": "spec.ts",
+					"description": "Extension of the created test file, default: 'spec.ts'"
+				},
+				"jasmine-boilerplate.testFileDirectory": {
+					"type": "string",
+					"default": "WITH_COMPONENT",
+					"description": "Directory where tests files are created, default: 'WITH_COMPONENT'"
+				},
+				"jasmine-boilerplate.customTestFileDirectoryPath": {
+					"type": "string",
+					"default": "",
+					"description": "Custom Path where tests files are created, default: ''"
+				}
+			}
 		}
 	},
 	"scripts": {

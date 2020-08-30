@@ -1,0 +1,5 @@
+export enum TestFileDirectory {
+    WITH_COMPONENT = 'WITH_COMPONENT',
+    ROOT_FOLDER = 'ROOT_FOLDER',
+    CUSTOM_FOLDER = 'CUSTOM_FOLDER'
+}
